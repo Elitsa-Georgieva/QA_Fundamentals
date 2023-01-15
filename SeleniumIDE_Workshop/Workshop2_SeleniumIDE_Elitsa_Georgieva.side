@@ -1,0 +1,1068 @@
+{
+  "id": "43a72c3c-4248-4818-85ef-2788d59211f2",
+  "version": "2.0",
+  "name": "Workshop2_SeleniumIDE_Elitsa_Georgieva",
+  "url": "https://www.animal.co.uk",
+  "tests": [{
+    "id": "faf33678-bc9a-49cd-aca3-245e12d30264",
+    "name": "1.2_Accessing_The_System_Through_The_Internet_From_URL_When_User_Is_Logged_In.",
+    "commands": [{
+      "id": "9aae7a5b-b1a2-4675-af51-5c4e774899ad",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "acf07205-f12d-42d2-8032-1c6548d6f3b7",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x660",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "201cc7e0-b8f9-4c18-b77d-82e65a4abb2b",
+      "comment": "",
+      "command": "click",
+      "target": "css=#userToggle svg",
+      "targets": [
+        ["css=#userToggle svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "4dc557e0-b558-485f-b763-92ff215f606d",
+      "comment": "",
+      "command": "click",
+      "target": "id=customer_logout_link",
+      "targets": [
+        ["id=customer_logout_link", "id"],
+        ["linkText=Log Out", "linkText"],
+        ["css=#customer_logout_link", "css:finder"],
+        ["xpath=//a[contains(text(),'Log Out')]", "xpath:link"],
+        ["xpath=//a[@id='customer_logout_link']", "xpath:attributes"],
+        ["xpath=//div[@id='userContainer']/div/div/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/account/logout')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Log Out')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ef719345-6807-419d-81c4-12354c45567b",
+      "comment": "",
+      "command": "click",
+      "target": "css=#userToggle svg",
+      "targets": [
+        ["css=#userToggle svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "f1f9d622-e928-49e6-8215-34f7c7aa2684",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(1) > .button",
+      "targets": [
+        ["css=li:nth-child(1) > .button", "css:finder"],
+        ["xpath=//a[contains(text(),'Login')]", "xpath:link"],
+        ["xpath=//div[@id='userContainer']/div/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/account/login')]", "xpath:href"],
+        ["xpath=//div[3]/div/div/div/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a4202f9e-7a0e-42f7-8158-9bb43965b867",
+      "comment": "",
+      "command": "click",
+      "target": "id=CustomerEmail",
+      "targets": [
+        ["id=CustomerEmail", "id"],
+        ["name=customer[email]", "name"],
+        ["css=#CustomerEmail", "css:finder"],
+        ["xpath=//input[@id='CustomerEmail']", "xpath:attributes"],
+        ["xpath=//div[@id='CustomerLoginForm']/ul/li/input", "xpath:idRelative"],
+        ["xpath=//li/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "89a5554f-7d5e-492a-828b-2a06023bddef",
+      "comment": "",
+      "command": "type",
+      "target": "id=CustomerEmail",
+      "targets": [
+        ["id=CustomerEmail", "id"],
+        ["name=customer[email]", "name"],
+        ["css=#CustomerEmail", "css:finder"],
+        ["xpath=//input[@id='CustomerEmail']", "xpath:attributes"],
+        ["xpath=//div[@id='CustomerLoginForm']/ul/li/input", "xpath:idRelative"],
+        ["xpath=//li/input", "xpath:position"]
+      ],
+      "value": "gkgfkyiotvieslwdby@tmmwj.net"
+    }, {
+      "id": "ec9ac5bf-40f1-4a81-be73-03e8fb194b61",
+      "comment": "",
+      "command": "click",
+      "target": "id=CustomerPassword",
+      "targets": [
+        ["id=CustomerPassword", "id"],
+        ["name=customer[password]", "name"],
+        ["css=#CustomerPassword", "css:finder"],
+        ["xpath=//input[@id='CustomerPassword']", "xpath:attributes"],
+        ["xpath=//div[@id='CustomerLoginForm']/ul/li[2]/input", "xpath:idRelative"],
+        ["xpath=//li[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9b0ca7c9-0062-4b83-ad51-e881dfd39ca5",
+      "comment": "",
+      "command": "type",
+      "target": "id=CustomerPassword",
+      "targets": [
+        ["id=CustomerPassword", "id"],
+        ["name=customer[password]", "name"],
+        ["css=#CustomerPassword", "css:finder"],
+        ["xpath=//input[@id='CustomerPassword']", "xpath:attributes"],
+        ["xpath=//div[@id='CustomerLoginForm']/ul/li[2]/input", "xpath:idRelative"],
+        ["xpath=//li[2]/input", "xpath:position"]
+      ],
+      "value": "12345678"
+    }, {
+      "id": "3033c05c-b25f-486a-ad00-f39c5ff00485",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-list:nth-child(1) .button",
+      "targets": [
+        ["css=.form-list:nth-child(1) .button", "css:finder"],
+        ["xpath=//input[@value='Sign In']", "xpath:attributes"],
+        ["xpath=//div[@id='CustomerLoginForm']/ul/li[3]/input", "xpath:idRelative"],
+        ["xpath=//li[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "92f9a04a-cf88-4b5c-a3ae-83b5da6e4a17",
+      "comment": "",
+      "command": "click",
+      "target": "css=a > img",
+      "targets": [
+        ["css=a > img", "css:finder"],
+        ["xpath=//img[@alt='Animal']", "xpath:img"],
+        ["xpath=//div[@id='shopify-section-header']/div/div/div[2]/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f2bb8b11-75e9-471b-b9a1-9d2dfd0028ac",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "ab5d3a22-290e-40d7-91ce-c3b56d06152b",
+    "name": "1.1_Accessing_the_system_through_the_internet_from_URL_when_user_is_not_Loged_In",
+    "commands": [{
+      "id": "3db1c378-e202-48ad-9cb6-5acce39befe0",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "45cbfcdf-de40-4e4a-b8a7-1e96d1498145",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1280x680",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "efe39649-d5fe-4bd8-a6a0-fc3139d896f8",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=header",
+      "targets": [
+        ["css=.located-image .content", "css:finder"],
+        ["xpath=//div[@id='shopify-section-1635939997120a27c6']/div/div/div/div/div/div/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//div/div/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "16c05a36-03bf-447a-9f3a-5bed4d440386",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=navigation",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ae2d87f9-1fac-4def-95d7-aa6be3d4ef1c",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "ead01255-82e9-459a-9444-82a582a1c7ec",
+    "name": "2.1_NavigationBarContainsHyperlinksTo:Home,Products,Login,RegistrationAndSearch_pages.",
+    "commands": [{
+      "id": "39042aa8-30d9-4e3d-9e8a-14e97970b4c2",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "08b5d052-5e91-4a37-9dff-439a261f6dab",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x696",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d6975b98-7fea-471b-9cc1-ab6c697eba6c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.logo > a",
+      "targets": [
+        ["css=.logo > a", "css:finder"],
+        ["xpath=//div[@id='shopify-section-header']/div/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.animal.co.uk')]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8b51a705-4dd9-49c5-9e72-3b3091b09ebe",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.womens > .level0 > span",
+      "targets": [
+        ["css=.womens > .level0 > span", "css:finder"],
+        ["xpath=//div[@id='navigation']/div/div/nav/ul/li/a/span", "xpath:idRelative"],
+        ["xpath=//nav/ul/li/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "46450ef4-bfe6-4499-b899-d00f7d3fc697",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.mens > .level0 > span",
+      "targets": [
+        ["css=.mens > .level0 > span", "css:finder"],
+        ["xpath=//div[@id='navigation']/div/div/nav/ul/li[2]/a/span", "xpath:idRelative"],
+        ["xpath=//nav/ul/li[2]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "38b4c9a5-f1ce-4343-b0cf-e78fb0b7ab8a",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.kids > .level0 > span",
+      "targets": [
+        ["css=.kids > .level0 > span", "css:finder"],
+        ["xpath=//div[@id='navigation']/div/div/nav/ul/li[3]/a/span", "xpath:idRelative"],
+        ["xpath=//nav/ul/li[3]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7c0f656e-1a3f-47c2-b265-1ed54a00c9e4",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.snow > .level0 > span",
+      "targets": [
+        ["css=.snow > .level0 > span", "css:finder"],
+        ["xpath=//div[@id='navigation']/div/div/nav/ul/li[4]/a/span", "xpath:idRelative"],
+        ["xpath=//li[4]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "adf82f9b-c702-40c7-9185-50857f1b2b44",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.footwear > .level0 > span",
+      "targets": [
+        ["css=.footwear > .level0 > span", "css:finder"],
+        ["xpath=//div[@id='navigation']/div/div/nav/ul/li[5]/a/span", "xpath:idRelative"],
+        ["xpath=//li[5]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ec6ab49c-c9c9-4329-bb27-7a7827fb09a8",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.beach > .level0 > span",
+      "targets": [
+        ["css=.beach > .level0 > span", "css:finder"],
+        ["xpath=//div[@id='navigation']/div/div/nav/ul/li[6]/a/span", "xpath:idRelative"],
+        ["xpath=//li[6]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "434742ef-d3ff-404f-928b-f432779a63e3",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.sale > .level0 > span",
+      "targets": [
+        ["css=.sale > .level0 > span", "css:finder"],
+        ["xpath=//div[@id='navigation']/div/div/nav/ul/li[7]/a/span", "xpath:idRelative"],
+        ["xpath=//li[7]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3e792275-0ebb-44be-a1da-a427ce7b3721",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=#searchToggle svg",
+      "targets": [
+        ["css=#searchToggle svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "f0202491-d2ea-400a-acd1-1e198be323f5",
+      "comment": "",
+      "command": "click",
+      "target": "css=#userToggle svg",
+      "targets": [
+        ["css=#userToggle svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "93bc3fc2-5ccd-4bcd-ac4e-e159ab646c37",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=li:nth-child(1) > .button",
+      "targets": [
+        ["css=li:nth-child(1) > .button", "css:finder"],
+        ["xpath=//a[contains(text(),'Login')]", "xpath:link"],
+        ["xpath=//div[@id='userContainer']/div/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/account/login')]", "xpath:href"],
+        ["xpath=//div[3]/div/div/div/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "97c4aefb-7b76-4dab-8308-4065750d34d1",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=li > .button-second",
+      "targets": [
+        ["css=li > .button-second", "css:finder"],
+        ["xpath=//a[contains(text(),'Register')]", "xpath:link"],
+        ["xpath=//div[@id='userContainer']/div/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/account/register')]", "xpath:href"],
+        ["xpath=//div[3]/div/div/div/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a1ef4892-79e0-4d56-a2a6-21d39f4c304b",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "0d278ba4-e50b-48c9-a5ba-28ff50d02fd5",
+    "name": "2.2_NavigationBarContainsHyperlinkToCheckoutPage.",
+    "commands": [{
+      "id": "3cd77a2c-fa92-4d4c-bf47-256b69cb3f94",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8e8033c7-1cdb-496c-9b6d-f40a81c658dc",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1280x680",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9a573490-8f66-404a-b618-a7d1fd5ce8e0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.womens > .level0 > span",
+      "targets": [
+        ["css=.womens > .level0 > span", "css:finder"],
+        ["xpath=//div[@id='navigation']/div/div/nav/ul/li/a/span", "xpath:idRelative"],
+        ["xpath=//nav/ul/li/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6a2dd681-29fb-4757-9060-72ed8c8bc27c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product-item:nth-child(3) .second > img",
+      "targets": [
+        ["css=.product-item:nth-child(3) .second > img", "css:finder"],
+        ["xpath=(//img[@alt='Skylar Womens Waterproof Boots - Burgundy'])[2]", "xpath:img"],
+        ["xpath=//div[@id='product-grid']/div[3]/div/a/picture[2]/img", "xpath:idRelative"],
+        ["xpath=//div[3]/div/a/picture[2]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5e946db0-44f6-4b39-a321-c6b6c209f23a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.select-option li:nth-child(1)",
+      "targets": [
+        ["css=.select-option li:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='product-variants']/div[2]/ul/li", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/ul/li", "xpath:position"],
+        ["xpath=//li[contains(.,'4')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "15fb6629-310d-4f66-8571-6b9bca859f66",
+      "comment": "",
+      "command": "click",
+      "target": "id=addToCartText",
+      "targets": [
+        ["id=addToCartText", "id"],
+        ["css=#addToCartText", "css:finder"],
+        ["xpath=//span[@id='addToCartText']", "xpath:attributes"],
+        ["xpath=//button[@id='addToCart']/span", "xpath:idRelative"],
+        ["xpath=//div[5]/div[2]/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "16334d70-dd19-444f-a7f2-611614b9d882",
+      "comment": "",
+      "command": "click",
+      "target": "id=cartDropDown",
+      "targets": [
+        ["id=cartDropDown", "id"],
+        ["css=#cartDropDown", "css:finder"],
+        ["xpath=//div[@id='cartDropDown']", "xpath:attributes"],
+        ["xpath=//div[@id='shopify-section-header']/div[4]", "xpath:idRelative"],
+        ["xpath=//div[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1151c124-ad00-4462-aa09-28edaa8b673e",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.checkout",
+      "targets": [
+        ["css=.checkout", "css:finder"],
+        ["xpath=//a[contains(text(),'Checkout')]", "xpath:link"],
+        ["xpath=//div[@id='cartContainer']/form/div[2]/div[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/cart')])[2]", "xpath:href"],
+        ["xpath=//form/div[2]/div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f97b8e4a-0999-4232-ad5a-a839186307a9",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "f5f94e6f-5e58-44c0-807b-776542db53f0",
+    "name": "3.2_HomePageShowsTheLinkToProducts'CollectionForMenAndBannerLeadsToTheCategory'sPage. ",
+    "commands": [{
+      "id": "f6c7b799-8288-433f-a397-766164a06b38",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "33ad52b4-8ec3-40bb-81c3-f3285a6a0996",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1280x680",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4b3aaf74-05c3-48ff-b505-6c9714868866",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.located-image .button:nth-child(1)",
+      "targets": [
+        ["css=.located-image .button:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Shop Womens')]", "xpath:link"],
+        ["xpath=//div[@id='shopify-section-1635939997120a27c6']/div/div/div/div/div/div/div[2]/div/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/collections/all-womens')])[4]", "xpath:href"],
+        ["xpath=//div/div[2]/div/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "400e8e08-ac45-46ef-bf2f-5f114baa1cb4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.located-image .button:nth-child(1)",
+      "targets": [
+        ["css=.located-image .button:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Shop Womens')]", "xpath:link"],
+        ["xpath=//div[@id='shopify-section-1635939997120a27c6']/div/div/div/div/div/div/div[2]/div/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/collections/all-womens')])[4]", "xpath:href"],
+        ["xpath=//div/div[2]/div/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3d60f921-7ea2-48e5-ad57-a7ab1b87617c",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.h4",
+      "targets": [
+        ["css=.h4", "css:finder"],
+        ["xpath=//main[@id='main']/div/div/div/div/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Womens Sustainable Wear')]", "xpath:innerText"]
+      ],
+      "value": "Womens Sustainable Wear"
+    }, {
+      "id": "1f79cc99-68cf-41a2-bdd6-8bf8c05fb9c2",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "75da64a6-8178-442a-a0ee-bde766634292",
+    "name": "3.3_HomePageShowsTheLinkToProducts'CollectionForWomenAndBannerLeadsToTheCategory'sPage. ",
+    "commands": [{
+      "id": "17210fba-ec43-47e6-9a31-2bc5f0ece976",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "074bd2a8-ec19-4082-b9f5-aef789749bf4",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1280x680",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "14d58312-6f13-4b9c-91b9-c8c3bfdf14a6",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.button:nth-child(3)",
+      "targets": [
+        ["css=.button:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Shop Kids')]", "xpath:link"],
+        ["xpath=//div[@id='shopify-section-1635939997120a27c6']/div/div/div/div/div/div/div[2]/div/div/div/a[3]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/collections/all-kids')])[4]", "xpath:href"],
+        ["xpath=//a[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9e87f730-039a-4fe1-a05a-0119a7b6639d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button:nth-child(3)",
+      "targets": [
+        ["css=.button:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Shop Kids')]", "xpath:link"],
+        ["xpath=//div[@id='shopify-section-1635939997120a27c6']/div/div/div/div/div/div/div[2]/div/div/div/a[3]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/collections/all-kids')])[4]", "xpath:href"],
+        ["xpath=//a[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c76ccb1b-bda5-4855-9090-fe0755c7c210",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.h4",
+      "targets": [
+        ["css=.h4", "css:finder"],
+        ["xpath=//main[@id='main']/div/div/div/div/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Kids Sustainable Wear')]", "xpath:innerText"]
+      ],
+      "value": "Kids Sustainable Wear"
+    }, {
+      "id": "fb18f140-bdc5-4a77-9b0d-41c8703d3a5d",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "204b3691-ac25-42bf-a9af-c2f6cb1d06d4",
+    "name": "3.1_HomePageShowsTheLinkToProducts'CollectionForKidsAndBannerLeadsToTheCategory'sPage. ",
+    "commands": [{
+      "id": "038a6ec0-fb3e-486a-975e-80c56b0997f9",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9365c5ff-a2a6-4960-9faa-7aebc4b794b6",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1280x680",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e6970ca8-4253-4cfe-a2b9-24bb1a793c97",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.button:nth-child(2)",
+      "targets": [
+        ["css=.button:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Shop Mens')]", "xpath:link"],
+        ["xpath=//div[@id='shopify-section-1635939997120a27c6']/div/div/div/div/div/div/div[2]/div/div/div/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/collections/all-mens')])[4]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "60f7895e-1538-417a-a98a-3af13914de78",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button:nth-child(2)",
+      "targets": [
+        ["css=.button:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Shop Mens')]", "xpath:link"],
+        ["xpath=//div[@id='shopify-section-1635939997120a27c6']/div/div/div/div/div/div/div[2]/div/div/div/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/collections/all-mens')])[4]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b983b68b-9f48-4ed0-9383-248a7cd5b739",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.h4",
+      "targets": [
+        ["css=.h4", "css:finder"],
+        ["xpath=//main[@id='main']/div/div/div/div/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Mens Sustainable Wear')]", "xpath:innerText"]
+      ],
+      "value": "Mens Sustainable Wear"
+    }, {
+      "id": "a5b82a45-aa9a-45bd-9062-9a70299d3c5f",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "36ffe44f-d2cc-4f12-a3f8-17f5d1591aa1",
+    "name": "4.1_ProductsCategoryPageHasSub-categoriesAndThereAreFilterAndSortOptions.",
+    "commands": [{
+      "id": "5c9dddfb-8de6-4db4-b4e4-ae83d51b4885",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2eaed120-4ddc-4ad2-84a4-93c2326c3e13",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.womens > .level0 > span",
+      "targets": [
+        ["css=.womens > .level0 > span", "css:finder"],
+        ["xpath=//div[@id='navigation']/div/div/nav/ul/li/a/span", "xpath:idRelative"],
+        ["xpath=//nav/ul/li/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "18594b19-8a00-4686-8cf0-b54b320a5086",
+      "comment": "",
+      "command": "click",
+      "target": "css=.located-image .content",
+      "targets": [
+        ["css=.located-image .content", "css:finder"],
+        ["xpath=//div[@id='shopify-section-1635939997120a27c6']/div/div/div/div/div/div/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/div/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "62669336-b1e2-4b65-9941-158fb274f60a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Dresses",
+      "targets": [
+        ["linkText=Dresses", "linkText"],
+        ["css=.is-open .level2:nth-child(5) > .level2", "css:finder"],
+        ["xpath=//a[contains(text(),'Dresses')]", "xpath:link"],
+        ["xpath=//div[@id='navigation']/div/div/nav/ul/li/div/div/div/div[2]/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/collections/womens-dresses')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Dresses')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9eb074bd-2aa9-4573-881b-8dfb95ad0102",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "066cb50e-7a7f-41a8-b6c4-e9eb80e33175",
+    "name": "4.2_Product'sFilteringCanBeDoneBy:Size",
+    "commands": [{
+      "id": "daf428f8-f79b-4ef8-a326-a9619015081d",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dfbe1045-afd4-4296-8ff5-033dc2f1b911",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x660",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6877e6bc-f85e-403b-9109-d305f964c786",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.womens > .level0 > span",
+      "targets": [
+        ["css=.womens > .level0 > span", "css:finder"],
+        ["xpath=//div[@id='navigation']/div/div/nav/ul/li/a/span", "xpath:idRelative"],
+        ["xpath=//nav/ul/li/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f5df70f9-258b-4635-8b6a-b5b60d1ea080",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Dresses",
+      "targets": [
+        ["linkText=Dresses", "linkText"],
+        ["css=.is-open .level2:nth-child(5) > .level2", "css:finder"],
+        ["xpath=//a[contains(text(),'Dresses')]", "xpath:link"],
+        ["xpath=//div[@id='navigation']/div/div/nav/ul/li/div/div/div/div[2]/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/collections/womens-dresses')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Dresses')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "708e7abf-380e-457b-aade-b5dc5c283b5d",
+      "comment": "",
+      "command": "click",
+      "target": "id=filterToggle",
+      "targets": [
+        ["id=filterToggle", "id"],
+        ["css=#filterToggle", "css:finder"],
+        ["xpath=//button[@id='filterToggle']", "xpath:attributes"],
+        ["xpath=//main[@id='main']/div/div[2]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5ed15c13-c268-405b-8845-884924396cbf",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=.filters",
+      "targets": [
+        ["css=.filters", "css:finder"],
+        ["xpath=//div[@id='filterContainer']/div", "xpath:idRelative"],
+        ["xpath=//div/div[2]/div/div/div/div[2]/div", "xpath:position"]
+      ],
+      "value": "444,218.04166412353516"
+    }, {
+      "id": "a600838b-ecf6-47e3-bf68-df08ad6a96fc",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=.filters",
+      "targets": [
+        ["css=.filters", "css:finder"],
+        ["xpath=//div[@id='filterContainer']/div", "xpath:idRelative"],
+        ["xpath=//div/div[2]/div/div/div/div[2]/div", "xpath:position"]
+      ],
+      "value": "444,218.04166412353516"
+    }, {
+      "id": "25744ece-5d9c-425d-b867-f4b35f2587a0",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=.filters",
+      "targets": [
+        ["css=.filters", "css:finder"],
+        ["xpath=//div[@id='filterContainer']/div", "xpath:idRelative"],
+        ["xpath=//div/div[2]/div/div/div/div[2]/div", "xpath:position"]
+      ],
+      "value": "444,218.04166412353516"
+    }, {
+      "id": "b6feecf3-a0f9-4e1f-af52-3abcaa7e387a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.size > .filter-button:nth-child(1)",
+      "targets": [
+        ["css=.size > .filter-button:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='filterContainer']/div/div[2]/ul/li", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/ul/li", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9f1df4f3-32bd-4428-8c41-ce50ce4d4667",
+      "comment": "",
+      "command": "click",
+      "target": "id=filterConfirm",
+      "targets": [
+        ["id=filterConfirm", "id"],
+        ["css=#filterConfirm", "css:finder"],
+        ["xpath=//button[@id='filterConfirm']", "xpath:attributes"],
+        ["xpath=//div[@id='filterContainer']/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ae79dc9d-45e3-479a-9cf8-831d853e1abc",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "c3e98c5f-5d04-4714-ad60-ba84531f7db0",
+    "name": "4.3_Product'sFilteringCanBeDoneBy:Color",
+    "commands": [{
+      "id": "26331217-b111-4c7c-a3c3-b7943929a378",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3aaf5ce5-4131-4017-b620-d417afc3620e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x660",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0a2e142f-0438-4ce5-9e9d-38a56982a263",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.womens > .level0 > span",
+      "targets": [
+        ["css=.womens > .level0 > span", "css:finder"],
+        ["xpath=//div[@id='navigation']/div/div/nav/ul/li/a/span", "xpath:idRelative"],
+        ["xpath=//nav/ul/li/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9d21b180-7730-4fab-a34b-79ba8c0eafab",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Dresses",
+      "targets": [
+        ["linkText=Dresses", "linkText"],
+        ["css=.is-open .level2:nth-child(5) > .level2", "css:finder"],
+        ["xpath=//a[contains(text(),'Dresses')]", "xpath:link"],
+        ["xpath=//div[@id='navigation']/div/div/nav/ul/li/div/div/div/div[2]/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/collections/womens-dresses')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Dresses')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "83c9e0e8-33fb-48cf-9d57-e80ebb46bdb7",
+      "comment": "",
+      "command": "click",
+      "target": "id=filterToggle",
+      "targets": [
+        ["id=filterToggle", "id"],
+        ["css=#filterToggle", "css:finder"],
+        ["xpath=//button[@id='filterToggle']", "xpath:attributes"],
+        ["xpath=//main[@id='main']/div/div[2]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "44f65f44-563d-4a48-9e7c-8c9d7074dcdf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.colour > .filter-button:nth-child(1)",
+      "targets": [
+        ["css=.colour > .filter-button:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='filterContainer']/div/div/ul/li", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/ul/li", "xpath:position"],
+        ["xpath=//li[contains(.,'Beige')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "56059b0d-3773-47ed-8ff2-4aa3bb2c3c6b",
+      "comment": "",
+      "command": "click",
+      "target": "id=filterConfirm",
+      "targets": [
+        ["id=filterConfirm", "id"],
+        ["css=#filterConfirm", "css:finder"],
+        ["xpath=//button[@id='filterConfirm']", "xpath:attributes"],
+        ["xpath=//div[@id='filterContainer']/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1d3b9118-c6d0-4f91-b026-d933e5f69c8f",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "d20eeaab-561b-41ec-8fe4-6a66b3c8ef9f",
+    "name": "4.4_Product'sFilteringCanBeDoneByPriceAndColour",
+    "commands": []
+  }, {
+    "id": "fa80d01e-bb4a-48c3-859c-8b9a99fc74c2",
+    "name": "4.5_Product'sFilteringCanBeDoneByPrice",
+    "commands": []
+  }, {
+    "id": "3d8b4721-9bc6-4d59-86a8-aedaa1f39691",
+    "name": "5.1_MyAccountPageListsTheAvailableSections.  ",
+    "commands": [{
+      "id": "cf6f5526-20e7-4550-8555-81ca0a1ea846",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "82d210b3-884c-4a1f-8b4b-31cc79cc8f7b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x660",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c38ffc97-97c6-4587-a288-05f1366ee1e8",
+      "comment": "",
+      "command": "click",
+      "target": "css=#userToggle path",
+      "targets": [
+        ["css=#userToggle path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "d4a65c32-885e-4496-a9b5-118b6816e873",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=My Account",
+      "targets": [
+        ["linkText=My Account", "linkText"],
+        ["css=.row > ul > li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'My Account')]", "xpath:link"],
+        ["xpath=//div[@id='userContainer']/div/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/account')])[2]", "xpath:href"],
+        ["xpath=//div[3]/div/div/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'My Account')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "383d5690-64f0-426e-90a7-1cd3aa6ca34c",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "linkText=My Orders",
+      "targets": [
+        ["linkText=My Orders", "linkText"],
+        ["css=.active", "css:finder"],
+        ["xpath=//a[contains(text(),'My Orders')]", "xpath:link"],
+        ["xpath=//main[@id='main']/div/div/div/div/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.animal.co.uk/account')])[2]", "xpath:href"],
+        ["xpath=//main/div/div/div/div/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'My Orders')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "42589217-7f1b-4a95-808f-552bb7677042",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "linkText=Address Book",
+      "targets": [
+        ["linkText=Address Book", "linkText"],
+        ["css=ul:nth-child(3) > li:nth-child(2) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Address Book')])[2]", "xpath:link"],
+        ["xpath=//main[@id='main']/div/div/div/div/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.animal.co.uk/account/addresses')]", "xpath:href"],
+        ["xpath=//main/div/div/div/div/div/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ab388e4a-ecad-4aef-b920-672d93c72872",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "linkText=Need Help?",
+      "targets": [
+        ["linkText=Need Help?", "linkText"],
+        ["css=ul:nth-child(3) > li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Need Help?')]", "xpath:link"],
+        ["xpath=//main[@id='main']/div/div/div/div/div/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.animal.co.uk/pages/support')]", "xpath:href"],
+        ["xpath=//main/div/div/div/div/div/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Need Help?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9b8f182f-4b5c-41d0-92d9-aaa485f02b31",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "linkText=Log Out",
+      "targets": [
+        ["linkText=Log Out", "linkText"],
+        ["css=ul:nth-child(3) #customer_logout_link", "css:finder"],
+        ["xpath=(//a[contains(text(),'Log Out')])[2]", "xpath:link"],
+        ["xpath=(//a[@id='customer_logout_link'])[2]", "xpath:attributes"],
+        ["xpath=//main[@id='main']/div/div/div/div/div/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/account/logout')])[2]", "xpath:href"],
+        ["xpath=//main/div/div/div/div/div/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0c05e287-ea2c-457b-8143-dd0645515f81",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "f761cde0-be08-43bd-9c3f-b4960034f99d",
+    "name": "AccessingTheSystem",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["ab5d3a22-290e-40d7-91ce-c3b56d06152b", "faf33678-bc9a-49cd-aca3-245e12d30264"]
+  }, {
+    "id": "12a3c5bd-f71e-4394-8f71-61a39ad14f5b",
+    "name": "NavigationBar",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["ead01255-82e9-459a-9444-82a582a1c7ec", "0d278ba4-e50b-48c9-a5ba-28ff50d02fd5"]
+  }, {
+    "id": "c32c5596-f746-46d3-8747-3f7a6b128e8d",
+    "name": "HomePage",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["204b3691-ac25-42bf-a9af-c2f6cb1d06d4", "f5f94e6f-5e58-44c0-807b-776542db53f0", "75da64a6-8178-442a-a0ee-bde766634292"]
+  }, {
+    "id": "94cb1d85-3123-4a0d-8e5e-39f8a22d6a87",
+    "name": "ProductsCategoryPage",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["fa80d01e-bb4a-48c3-859c-8b9a99fc74c2", "d20eeaab-561b-41ec-8fe4-6a66b3c8ef9f", "c3e98c5f-5d04-4714-ad60-ba84531f7db0", "066cb50e-7a7f-41a8-b6c4-e9eb80e33175", "36ffe44f-d2cc-4f12-a3f8-17f5d1591aa1"]
+  }, {
+    "id": "0ed13410-8771-47c5-8f90-c0cef295bbb6",
+    "name": "MyAccount",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["3d8b4721-9bc6-4d59-86a8-aedaa1f39691"]
+  }],
+  "urls": ["https://www.animal.co.uk/"],
+  "plugins": []
+}
